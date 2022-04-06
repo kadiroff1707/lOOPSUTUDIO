@@ -45,3 +45,270 @@ img{
 .main-content{
   flex-grow: 1;
 }
+
+
+/* SITE-HEADER */
+.hero-wrapper {
+  background-image: url("../img/hero-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-header {
+  padding: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sitenav-logo {
+  width: 192px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sitenav-logo:hover{
+color: black;
+}
+
+.sitenav-logo:active{
+  opacity: 0.6;
+}
+
+.site-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 64px;
+  padding-bottom: 64px;
+  margin-left: 164px;
+  margin-right: 164px;
+  color: #fff;
+}
+
+.site-nav-item {
+display: flex;
+align-items: center;
+}
+
+.site-nav-item:hover{
+  color: #222;
+}
+
+.site-nav-item:active{
+  opacity: 0.6;
+}
+
+.site-nav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link {
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  white-space: nowrap;
+  font-family: "Alata","Arial", sans-serif;
+  color: var(--main-light-font-color);
+  border-bottom: 2px solid-transparent;
+  transition: border-color 0.4s ease;
+}
+
+/* SITE-HERO */
+.hero-inner {
+  color: #fff;
+  padding: 66px;
+  padding-bottom: 146px;
+  }
+
+
+.hero-content {
+  border: 2px solid #fff;
+  width: 650px;
+}
+
+.hero-heading {
+  padding: 40px;
+  margin: 0;
+  font-family: "Josefin Sans", "Alata", sans-serif;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 300;
+  color: #fff;
+}
+
+
+/* MAIN-CONTENT */
+.banners {
+  margin-top: 160px;
+  margin-bottom: 184px;
+  color: var(--main-dark-font-color);
+}
+
+
+.banners-inner {
+  padding-top: 180px;
+  padding-left: 570px;
+  background-image: url("../img/Bitmap.jpg");
+  background-repeat: no-repeat;
+  background-size: 731px, 500px;
+}
+
+.banner-content {
+  width: 540px;
+  padding-top: 96px;
+  padding-left: 96px;
+  background-color: #fff;
+}
+
+.banner-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+
+/* SITE-MAIN */
+
+.sitenav-main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-main-text {
+  width: 445px;
+  height: 48px;
+  font-family: "Josefin Sans", "Alata", sans-serif;
+  color: black;
+}
+
+.site-main-link {
+  padding: 13px;
+  padding-left: 13px;
+  margin-left: 43px;
+  margin-bottom: 38px;
+  font-family: "Alata","Arial", sans-serif;
+  text-decoration: none;
+  width: 76px;
+  height: 14px;
+  color: black;
+}
+
+.site-main-link-bottom{
+  border: 2px solid #000;
+  align-items: center;
+  width: 157px;
+  height: 30px;
+}
+
+.main-bottom-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-bottom-heading {
+  font-family: "Josefin Sans", "arial", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.main-bottom-button {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 13px 43px;
+  color: #000;
+  border: solid #000 1px;
+}
+
+.main-bottom-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-bottom-button:active {
+  opacity: 0.6;
+}
+.main-bottom-foto {
+  width: 256px;
+  height: 450px;
+}
+
+.img-main-bottom {
+  margin-bottom: 30px;
+}
+
+.img-main-bottom:hover {
+  opacity: 0.6;
+
+}
+
+.img-main-bottom:active {
+  opacity: 0.3;
+}
+
+.main-bottom-foto:not(:last-child) {
+  margin-right: 35px;
+}
+
+.site-footer {
+  background-color: #000;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.site-footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer-logo:hover {
+  opacity: 0.6;
+}
+
+.site-footer-logo:active {
+  opacity: 0.8;
+}
+
+.footer-icon-img {
+  width: 24px;
+  height: 24px;
+  padding-bottom: 4px;
+}
+
+.footer-icon-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-icon-link:hover{
+  border-bottom: #fff solid 2px;
+}
+
+.site-footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} .
+
+
+/* RETINA-IMG */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
